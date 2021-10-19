@@ -1785,17 +1785,17 @@ C:\jupyter_code>
 ## Miniconda 
 
 ```
+
 C:\Users\Yuan>conda create --name jupyter_conda python=3.8 -y
 # The Environment created 'jupyter_conda'
 C:\Users\Yuan>activate jupyter_conda
 (jupyter_conda) C:\Users\Yuan>
 (jupyter_conda) C:\Users\Yuan>pip install jupyter
 
+http://127.0.0.1:8888/?token=280b5922018a3044e49bf8498e423628cdbb718bc58e2dfb
 ```
 
-
-
-# Foobar
+## Foobar
 
 Foobar is a Python library for dealing with word pluralization.
 
