@@ -54,3 +54,14 @@ pipenv shell
 
 jupyter notebook
 ```
+
+
+## Activating Anaconda Environment in VsCode
+```
+Command Prompt
+
+settings.json
+{
+    "python.pythonPath":"C:\\Users\\Yuan\\miniconda3\\envs\\jupyter_conda\\python.exe"
+}
+```
