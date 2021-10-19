@@ -1790,6 +1790,7 @@ C:\Users\Yuan>conda create --name jupyter_conda python=3.8 -y
 C:\Users\Yuan>activate jupyter_conda
 (jupyter_conda) C:\Users\Yuan>
 (jupyter_conda) C:\Users\Yuan>pip install jupyter
+=============================================================================
 ```
 
 
