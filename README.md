@@ -1,5 +1,5 @@
 # Environment_Variables
-
+C:\Users\Yuan\miniconda3\envs\jupyter_conda
 ```
 =================================================================================================================
 python -m venv myenv
