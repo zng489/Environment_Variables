@@ -10,15 +10,38 @@ conda create -n myenv python=3.6
 =================================================================================================================
 ```
 
-## Miniconda 
-```
-C:\Users\Yuan>conda create --name jupyter_conda python=3.8 -y
-# The Environment created 'jupyter_conda'
-C:\Users\Yuan>activate jupyter_conda
-(jupyter_conda) C:\Users\Yuan>
-(jupyter_conda) C:\Users\Yuan>pip install jupyter
+# Miniconda 
 
-http://127.0.0.1:8888/?token=280b5922018a3044e49bf8498e423628cdbb718bc58e2dfb
+```
+------------------------------------------------------------------------------------------------------------------
+
+Download >> https://docs.conda.io/en/latest/miniconda.html
+
+Step 1 >> Latest - Conda 4.10.3 Python 3.9.5 released July 21, 2021
+
+Step 2 >> Platform	Name	SHA256 hash Windows	Miniconda3 Windows 64-bit	
+b33797064593ab2229a0135dc69001bea05cb56a20c2f243b1231213642e260a
+
+------------------------------------------------------------------------------------------------------------------
+
+C:\Users\Yuan>
+>> conda create --name jupyter_conda_python_3.8 python=3.8 -y
+
+>> conda activate jupyter_conda_python_3.8
+
+>> conda deactivate
+
+C:\Users\Yuan>
+>> conda activate jupyter_conda_python_3.8
+
+(jupyter_conda_python_3.8) C:\Users\Yuan>
+>> pip install jupyter
+
+(jupyter_conda_python_3.8) C:\Users\Yuan>
+>> jupyter notebook
+
+------------------------------------------------------------------------------------------------------------------
+
 ```
 
 ## Pyenv
