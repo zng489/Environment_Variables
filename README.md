@@ -103,7 +103,7 @@ settings.json
 =================================================================================================================
 1 - Installing and download miniconda
 2 - Creating the environment and pip jupyter
-3 - Opening the VSC and install the extesion for ipynb fiel
+3 - Opening the VSC and install the extesion for ipynb file
 4 - pip uninstall if necessary!!!
 =================================================================================================================
 ```
