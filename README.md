@@ -23,6 +23,8 @@ Step 2 >> Platform	Name	SHA256 hash Windows	Miniconda3 Windows 64-bit
 b33797064593ab2229a0135dc69001bea05cb56a20c2f243b1231213642e260a
 
 ------------------------------------------------------------------------------------------------------------------
+where conda
+where python
 
 C:\Users\Yuan>
 >> conda create --name jupyter_conda_python_3.8 python=3.8 -y
