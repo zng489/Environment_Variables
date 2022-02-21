@@ -40,7 +40,7 @@ C:\Users\Yuan>
 
 (jupyter_conda_python_3.8) C:\Users\Yuan>
 >> jupyter notebook
-
+>> conda env list
 ********************************************************************************************************************
 C:\Users\Yuan>activate jupyter_v_2.7
 (jupyter_v_2.7) C:\Users\Yuan>python
