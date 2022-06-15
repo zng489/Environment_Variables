@@ -108,3 +108,31 @@ settings.json
 4 - pip uninstall if necessary!!!
 =================================================================================================================
 ```
+
+
+```
+Solving environment: failed
+
+CondaHTTPError: HTTP 000 CONNECTION FAILED for url <https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/noarch/repodata.json>
+Elapsed: -
+
+An HTTP error occurred when trying to retrieve this URL.
+HTTP errors are often intermittent, and a simple retry will get you on your way.
+SSLError(MaxRetryError('HTTPSConnectionPool(host=\'mirrors.tuna.tsinghua.edu.cn\', port=443): Max retries exceeded with url: /anaconda/pkgs/free/noarch/repodata.json (Caused by SSLError(SSLError("bad handshake: Error([(\'SSL routines\', \'ssl3_get_server_certificate\', \'certificate verify failed\')])")))'))
+尝试重新配置源
+
+# 重置源配置
+conda config --remove-key channels 
+# 重新添加清华源
+conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
+conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/
+conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/pytorch/ 
+conda config --set show_channel_urls yes
+# 查看效果
+cat ~/.condarc
+没什么用
+
+为防火墙的问题，通过如下命令解决
+
+conda config --set ssl_verify false
+```
