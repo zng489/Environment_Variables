@@ -21,6 +21,8 @@ Step 1 >> Latest - Conda 4.10.3 Python 3.9.5 released July 21, 2021
 Step 2 >> Platform	Name	SHA256 hash Windows	Miniconda3 Windows 64-bit	
 b33797064593ab2229a0135dc69001bea05cb56a20c2f243b1231213642e260a
 
+winget install -e --id Anaconda.Miniconda3
+
 ------------------------------------------------------------------------------------------------------------------
 where conda
 where python
