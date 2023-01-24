@@ -31,7 +31,7 @@ conda activate base
 
 C:\Users\Yuan>
 >> conda create --name jupyter_conda_python_3.8 python=3.8 -y
-
+>> conda install -n conda_3.9 ipykernel --update-deps --force-reinstall  # IF NEED IT
 >> conda activate jupyter_conda_python_3.8
 
 >> conda deactivate
