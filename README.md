@@ -1,3 +1,8 @@
+# Conda Remove
+```
+conda env remove -n jupyter_conda_python_3.8
+```
+
 # Environment_Variables
 C:\Users\Yuan\miniconda3\envs\jupyter_conda
 ```
