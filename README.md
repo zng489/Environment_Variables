@@ -1,3 +1,10 @@
+# System variables
+```
+C:\Users\PC\miniconda3\Scripts for conda in cmd
+or
+C:\Users\PC\miniconda3\envs for a specific python version
+```
+
 # Conda Remove
 ```
 conda env remove -n jupyter_conda_python_3.8
