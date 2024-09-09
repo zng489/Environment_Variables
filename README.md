@@ -5,6 +5,11 @@ or
 C:\Users\PC\miniconda3\envs for a specific python version
 ```
 
+# Installing python in Visual Code
+```
+Installing python in Visual Code
+```
+
 # Conda Remove
 ```
 conda env remove -n jupyter_conda_python_3.8
