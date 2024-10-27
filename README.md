@@ -12,6 +12,8 @@ Installing python in Visual Code
 
 # Conda Remove
 ```
+deactivate
+conda remove -n ENV_NAME --all
 conda env remove -n jupyter_conda_python_3.8
 ```
 
